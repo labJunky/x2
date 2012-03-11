@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"  standalone='yes'?>
+<dataPoint>
+  <info>MOT Loading, Absorption Imaging Test</info>
+  <event_list>
+    <event time="0"
+           channel_name="Aom2_Amplitude">
+      <time>0</time>
+      <time_difference>0</time_difference>
+      <channel_name>Aom2_Amplitude</channel_name>
+      <action>changeValue</action>
+      <newValue>on</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="0"
+           channel_name="3DMOT_Bottom_Coil">
+      <time>0</time>
+      <time_difference>0</time_difference>
+      <channel_name>3DMOT_Bottom_Coil</channel_name>
+      <action>changeValue</action>
+      <newValue>on</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="0"
+           channel_name="3DMOT_Top_Coil">
+      <time>0</time>
+      <time_difference>0</time_difference>
+      <channel_name>3DMOT_Top_Coil</channel_name>
+      <action>changeValue</action>
+      <newValue>on</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="0"
+           channel_name="ICCamera_Trig">
+      <time>0</time>
+      <time_difference>0</time_difference>
+      <channel_name>ICCamera_Trig</channel_name>
+      <action>pulse</action>
+      <newValue>init</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="29000000"
+           channel_name="ICCamera_Trig">
+      <time>29000000</time>
+      <time_difference>29000000</time_difference>
+      <channel_name>ICCamera_Trig</channel_name>
+      <action>pulse</action>
+      <newValue>snap</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT_Fluorescence_Image</stage>
+    </event>
+    <event time="29998000"
+           channel_name="Aom2_Amplitude">
+      <time>29998000</time>
+      <time_difference>998000</time_difference>
+      <channel_name>Aom2_Amplitude</channel_name>
+      <action>changeValue</action>
+      <newValue>off</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT_Switch_Off</stage>
+    </event>
+    <event time="29998000"
+           channel_name="Aom3_Amplitude">
+      <time>29998000</time>
+      <time_difference>0</time_difference>
+      <channel_name>Aom3_Amplitude</channel_name>
+      <action>changeValue</action>
+      <newValue>on</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_Imaging</stage>
+    </event>
+    <event time="29998000"
+           channel_name="3DMOT_Bottom_Coil">
+      <time>29998000</time>
+      <time_difference>0</time_difference>
+      <channel_name>3DMOT_Bottom_Coil</channel_name>
+      <action>changeValue</action>
+      <newValue>off</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT_Switch_Off</stage>
+    </event>
+    <event time="29998000"
+           channel_name="3DMOT_Top_Coil">
+      <time>29998000</time>
+      <time_difference>0</time_difference>
+      <channel_name>3DMOT_Top_Coil</channel_name>
+      <action>changeValue</action>
+      <newValue>off</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT_Switch_Off</stage>
+    </event>
+    <event time="30000000"
+           channel_name="ICCamera_Trig">
+      <time>30000000</time>
+      <time_difference>2000</time_difference>
+      <channel_name>ICCamera_Trig</channel_name>
+      <action>pulse</action>
+      <newValue>snap</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_Imaging</stage>
+    </event>
+    <event time="33000000"
+           channel_name="ICCamera_Trig">
+      <time>33000000</time>
+      <time_difference>3000000</time_difference>
+      <channel_name>ICCamera_Trig</channel_name>
+      <action>pulse</action>
+      <newValue>snap</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_LaserOn</stage>
+    </event>
+    <event time="33500000"
+           channel_name="Aom3_Amplitude">
+      <time>33500000</time>
+      <time_difference>500000</time_difference>
+      <channel_name>Aom3_Amplitude</channel_name>
+      <action>changeValue</action>
+      <newValue>off</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_Imaging</stage>
+    </event>
+    <event time="34000000"
+           channel_name="ICCamera_Trig">
+      <time>34000000</time>
+      <time_difference>500000</time_difference>
+      <channel_name>ICCamera_Trig</channel_name>
+      <action>pulse</action>
+      <newValue>snap</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_bckG</stage>
+    </event>
+  </event_list>
+</dataPoint>

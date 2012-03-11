@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<waveform>
+	<data>
+    <dataPoint>
+      <time>0</time>
+      <value>0</value>
+    </dataPoint>
+		<dataPoint>
+			<time>2</time>
+			<value>1</value>
+		</dataPoint>
+		<dataPoint>
+			<time>5</time>
+			<value>3</value>
+		</dataPoint>
+		<dataPoint>
+			<time>8</time>
+			<value>4</value>
+		</dataPoint>
+		<dataPoint>
+			<time>15</time>
+			<value>2</value>
+		</dataPoint>
+	</data>
+</waveform>

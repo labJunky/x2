@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><ao name="Ao8a">
+    <device_name>NI_PXI_6733</device_name>
+    <capabilities>
+      <channel_number type="analog">8</channel_number>
+      <channel_number type="digital_output">8</channel_number>
+      <channel_number type="digital_input">8</channel_number>
+      <range units="volts">Â±10</range>
+      <range units="ref_volts">Â±11</range>
+      <dio_levels>TTL</dio_levels>
+      <triggering>
+        <start>PFI[0_9]</start>
+        <start>PXI[0_6]</start>
+        <clock>PFI[0_9]</clock>
+        <clock>PXI[0_6]</clock>
+      </triggering>
+      <resolution type="bits">16</resolution>
+    </capabilities>
+    <config>
+      <channels_inUse>
+        <name type="unrestricted">Ao8a_Ao_00@analog0</name>
+        <name type="unrestricted">Ao8a_Ao_01@analog1</name>
+        <name type="unrestricted">Ao8a_Ao_02@analog2</name>
+        <name type="unrestricted">Ao8a_Ao_03@analog3</name>
+        <name type="unrestricted">Ao8a_Ao_04@analog4</name>
+        <name type="unrestricted">Ao8a_Ao_05@analog5</name>
+        <name type="unrestricted">Ao8a_Ao_06@analog6</name>
+        <name type="unrestricted">Ao8a_Ao_07@analog7</name>
+      </channels_inUse>
+      <triggering_inUse>
+        <start_trigger>none</start_trigger>
+        <clock>Ao8a_PFI_08</clock>
+      </triggering_inUse>
+      <range_inUse units="volts">
+        <min>-10</min>
+        <max>10</max>
+      </range_inUse>
+      <channel_config name="Ao8a_Ao_00">
+        <mapping>
+          <mappedTo type="field">analog0</mappedTo>
+          <states>
+            <on>1</on>
+            <off>0</off>
+          </states>
+          <units>volts</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao8a_Ao_01">
+        <mapping>
+          <mappedTo type="field">analog1</mappedTo>
+          <states>
+            <on>1</on>
+            <off>0</off>
+          </states>
+          <units>V</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao8a_Ao_02">
+        <mapping>
+          <mappedTo type="field">analog2</mappedTo>
+          <states>
+            <on>1</on>
+            <off>0</off>
+          </states>
+          <units>V</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao8a_Ao_03">
+        <mapping>
+          <mappedTo type="field">analog3</mappedTo>
+          <states>
+            <on>1</on>
+            <off>0</off>
+          </states>
+          <units>V</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao8a_Ao_04">
+        <mapping>
+          <mappedTo type="field">analog4</mappedTo>
+          <states>
+            <on>1</on>
+            <off>0</off>
+          </states>
+          <units>V</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao8a_Ao_05">
+        <mapping>
+          <mappedTo type="field">analog5</mappedTo>
+          <states>
+            <on>1</on>
+            <off>0</off>
+          </states>
+          <units>V</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao8a_Ao_06">
+        <mapping>
+          <mappedTo type="field">analog6</mappedTo>
+          <states>
+            <on>1</on>
+            <off>0</off>
+          </states>
+          <units>V</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao8a_Ao_07">
+        <mapping>
+          <mappedTo type="field">analog7</mappedTo>
+          <states>
+            <on>1</on>
+            <off>0</off>
+          </states>
+          <units>V</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+    </config>
+  </ao>

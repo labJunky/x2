@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"  standalone='yes'?>
+<dataPoint>
+  <info>Here is a dataPoint script, it contains the data the program uses along    with the database to contruct the infomation the hardware need to perform the     experiment. Note that all times are in microseconds "us", channel_name's have    the units in square parenthesis, Bo[G], and so do there values 5[G].  </info>
+  <event_list>
+    <event time="0" channel_name="Bo[G]">
+      <time>0</time>
+      <time_difference>0</time_difference>
+      <channel_name>Bo[G]</channel_name>
+      <action>changeValue</action>
+      <newValue>5</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="2" channel_name="Bstatic[G]">
+      <time>2</time>
+      <time_difference>2</time_difference>
+      <channel_name>Bstatic[G]</channel_name>
+      <action>changeValue</action>
+      <newValue>1.2</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="15" channel_name="Bo[G]">
+      <time>15</time>
+      <time_difference>13</time_difference>
+      <channel_name>Bo[G]</channel_name>
+      <action>changeValue</action>
+      <newValue>1</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="18" channel_name="Btest[G]">
+      <time>18</time>
+      <time_difference>3</time_difference>
+      <channel_name>Btest[G]</channel_name>
+      <action>changeValue</action>
+      <newValue>3</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="1700000" channel_name="AOM1">
+      <time>1700000</time>
+      <time_difference>1699982</time_difference>
+      <channel_name>AOM1</channel_name>
+      <action>changeValue</action>
+      <newValue>Blue</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+    <event time="1800000" channel_name="Btest[G]">
+      <time>1800000</time>
+      <time_difference>1000000</time_difference>
+      <channel_name>Btest[G]</channel_name>
+      <action>changeValue</action>
+      <newValue>2</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+    </event>
+  </event_list>
+</dataPoint>

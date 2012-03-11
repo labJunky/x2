@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"  standalone='yes'?>
+<device_settings>
+	<file_name>DeviceSettingsBEC1.xml</file_name>
+	<experiment_name>BEC1</experiment_name>
+  <version>v3</version>
+  <info>
+    This database contains the settings for the hardware used in the BEC1 experiment.
+    The channel_config element contains the configuration for each channel. Its has a name attribute, which names the
+    channel it describes. 
+  </info>
+ 	<device_list>
+		<instrument type="ao">Ao8</instrument>
+		<instrument type="ao">Ao32</instrument>
+    <instrument type="sound">S1010</instrument>
+    <instrument type="current">C100</instrument>
+		<instrument type="daq">Daq</instrument>
+    <instrument type="dio">Dio64</instrument>
+    <instrument type="arb">ArbWave</instrument>
+  </device_list>
+	<ao name="Ao8">
+    <device_name>NI_PXI_6733</device_name>
+		<capabilities>
+			<channel_number type="analog">8</channel_number>
+      <channel_number type="digital_output">8</channel_number>
+      <channel_number type="digital_input">8</channel_number>
+      <range units="volts">±10</range>
+      <range units="ref_volts">±11</range>
+      <dio_levels>TTL</dio_levels>
+      <triggering>
+        <start>PFI[0_9]</start>
+        <start>PXI[0_6]</start>
+        <clock>PFI[0_9]</clock>
+        <clock>PXI[0_6]</clock>
+      </triggering>
+      <resolution type="bits">16</resolution>
+		</capabilities>
+    <config>
+      <channels_inUse></channels_inUse>
+      <triggering_inUse>
+        <start_trigger>none</start_trigger>
+        <clock>Ao8_PFI_08</clock>
+      </triggering_inUse>
+      <range_inUse units="volts">
+        <min>-10</min>
+        <max>10</max>
+      </range_inUse>
+    </config>
+	</ao>
+	<ao name="Ao32">
+    <device_name>NI_PXI_6723</device_name>
+		<capabilities>
+      <channel_number type="analog">32</channel_number>
+			<channel_number type="digital_output">8</channel_number>
+      <channel_number type="digital_input">8</channel_number>
+      <range units="volts">±10</range>
+      <dio_levels>TTL</dio_levels>
+      <triggering>
+        <start>PFI[0_9]</start>
+        <start>PXI[0_6]</start>
+        <clock>PFI[0_9]</clock>
+        <clock>PXI[0_6]</clock>
+      </triggering>
+      <resolution type="bits">13</resolution>
+    </capabilities>
+    <config>
+      <channels_inUse>
+        <name type="unrestricted">Ao32_Ao_00@Aom2_Amplitude</name>
+        <name type="unrestricted">Ao32_Ao_01@Aom3_Amplitude</name>
+        <name type="unrestricted">Ao32_Ao_02@Aom2_Frequency</name>
+        <name type="unrestricted">Ao32_Ao_03@Aom3_Frequency</name>
+        <name type="unrestricted">Ao32_Ao_04@3DMOT_Coils</name>
+      </channels_inUse>
+      <triggering_inUse>
+        <start_trigger>none</start_trigger>
+        <clock>Ao32_PFI_01</clock>
+      </triggering_inUse>
+      <range_inUse units="volts">
+        <min>-10</min>
+        <max>10</max>
+      </range_inUse>
+      <channel_config name="Ao32_Ao_00">
+        <mapping>
+          <mappedTo type="AOM">Aom2_Amplitude</mappedTo>
+          <states>
+            <on>0.74</on>
+            <off>0</off>
+          </states>
+          <units>volts</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao32_Ao_01">
+        <mapping>
+          <mappedTo type="AOM">Aom3_Amplitude</mappedTo>
+          <states>
+            <on>0.8</on>
+            <off>0</off>
+          </states>
+          <units>volts</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao32_Ao_02">
+        <mapping>
+          <mappedTo type="AOM">Aom2_Frequency</mappedTo>
+          <states>
+            <on>2.59</on>
+            <off>2.59</off>
+          </states>
+          <units>volts</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao32_Ao_03">
+        <mapping>
+          <mappedTo type="AOM">Aom3_Frequency</mappedTo>
+          <states>
+            <on>4.45</on>
+            <off>4.45</off>
+          </states>
+          <units>volts</units>
+          <calibration>
+            <gradient units="volts">1</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+      <channel_config name="Ao32_Ao_04">
+        <mapping>
+          <mappedTo type="magnetic_field">3DMOT_Coils</mappedTo>
+          <states>
+            <on>16</on>
+            <off>0</off>
+          </states>
+          <units>amps</units>
+          <calibration>
+            <gradient units="volts">0.05</gradient>
+            <offset units="volts">0</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>ao</channel_type>
+      </channel_config>
+    </config>
+	</ao>
+	<dio name="Dio64">
+    <capabilities>
+ 		  <channel_number type="digital">64</channel_number>
+      <triggering>
+        <start>Dio64_24</start>
+        <start>PXI_Trig_02</start>
+        <start>PXI_Star</start>
+        <start>internal</start>
+        <stop>Dio64_25</stop>
+        <stop>PXI_trig_03</stop>
+        <stop>PXI_Star</stop>
+        <stop>internal</stop>
+        <clock>internal</clock>
+        <clock>Dio64_20</clock>
+        <clock>PXI_Trig_00</clock>
+        <clock>PXI_Trig_07</clock> 
+      </triggering>
+      <routings>
+        <routing>Dio64_10MHz to PXI_Trig_07</routing>
+        <routing>Dio64_Scan to Dio64_20</routing>
+        <routing>Dio64_Scan to PXI_Trig_00</routing>
+        <routing>Dio64_Start to PXI_Trig_02</routing>
+        <routing>Dio64_13 to PXI_Trig_01</routing>
+        <routing>Dio64_14 to PXI_Trig_05</routing>
+        <routing>Dio64_15 to PXI_Trig_06</routing>
+      </routings>
+    </capabilities>
+    <config>
+      <channels_inUse>
+        <name type="unrestricted">Dio64_Do_00@Taper_Shutter</name>
+        <name type="unrestricted">Dio64_Do_01@Repump_Shutter</name>
+        <name type="unrestricted">Dio64_Do_04@ICCamera_Trig</name>
+        <name type="unrestricted">Dio64_Do_05@AndorIKon_Trig</name>
+        <name type="restricted">Dio64_Do_03@Ao32_PFI_01</name>
+        <name type="restricted">Dio64_Di_24@external</name>
+      </channels_inUse>
+      <triggering_inUse>
+        <start_trigger>none</start_trigger>
+        <clock>internal</clock>
+      </triggering_inUse>
+      <channel_config name="Dio64_Do_00">
+        <mapping>
+          <mappedTo type="shutter">Taper_Shutter</mappedTo>
+          <states>
+            <open>high</open>
+            <closed>low</closed>
+          </states>
+          <units>N-A</units>
+          <calibration>
+            <gradient units="">N-A</gradient>
+            <offset units="">N-A</offset>
+          </calibration>
+          <safe_state units="">closed</safe_state>
+        </mapping>
+        <channel_type>do</channel_type>
+        <digital_config>
+          <type>changeValue</type>
+          <levels>
+            <high units="volts">5</high>
+            <low units="volts">0</low>
+          </levels>
+          <width units="us">N-A</width>
+          <delay units="us">0</delay>
+        </digital_config>
+      </channel_config>
+      <channel_config name="Dio64_Do_01">
+        <mapping>
+          <mappedTo type="shutter">Repump_Shutter</mappedTo>
+          <states>
+            <open>high</open>
+            <closed>low</closed>
+          </states>
+          <units>N-A</units>
+          <calibration>
+            <gradient units="">N-A</gradient>
+            <offset units="">N-A</offset>
+          </calibration>
+          <safe_state units="">closed</safe_state>
+        </mapping>
+        <channel_type>do</channel_type>
+        <digital_config>
+          <type>changeValue</type>
+          <levels>
+            <high units="volts">5</high>
+            <low units="volts">0</low>
+          </levels>
+          <width units="us">N-A</width>
+          <delay units="us">0</delay>
+        </digital_config>
+      </channel_config>
+      <channel_config name="Dio64_Do_04">
+        <mapping>
+          <mappedTo type="trigger">ICCamera_Trig</mappedTo>
+          <states>
+            <snap>high</snap>
+            <init>high</init>
+            <off>low</off>
+          </states>
+          <units>N-A</units>
+          <calibration>
+            <gradient units="volts">N-A</gradient>
+            <offset units="volts">N-A</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>do</channel_type>
+        <digital_config>
+          <type>pulse</type>
+          <levels>
+            <high units="volts">5</high>
+            <low units="volts">0</low>
+          </levels>
+          <width units="us">2</width>
+          <delay units="us">0</delay>
+        </digital_config>
+      </channel_config>
+      <channel_config name="Dio64_Do_05">
+        <mapping>
+          <mappedTo type="trigger">AndorIKon_Trig</mappedTo>
+          <states>
+            <snap>high</snap>
+            <off>low</off>
+          </states>
+          <units>N-A</units>
+          <calibration>
+            <gradient units="volts">N-A</gradient>
+            <offset units="volts">N-A</offset>
+          </calibration>
+          <safe_state units="volts">off</safe_state>
+        </mapping>
+        <channel_type>do</channel_type>
+        <digital_config>
+          <type>pulse</type>
+          <levels>
+            <high units="volts">5</high>
+            <low units="volts">0</low>
+          </levels>
+          <width units="us">1</width>
+          <delay units="us">0</delay>
+        </digital_config>
+      </channel_config>
+      <channel_config name="Dio64_Do_03">
+        <mapping>
+          <mappedTo type="clock">Ao32_PFI_01</mappedTo>
+          <states>All</states>
+          <units>N-A</units>
+          <calibration>
+            <gradient units="volts">N-A</gradient>
+            <offset units="volts">N-A</offset>
+          </calibration>
+          <safe_state units="volts">low</safe_state>
+        </mapping>
+        <channel_type>do</channel_type>
+        <digital_config>
+          <type>pulse</type>
+          <levels>
+            <high units="volts">5</high>
+            <low units="volts">0</low>
+          </levels>
+          <width units="us">1</width>
+          <delay units="us">0</delay>
+        </digital_config>
+      </channel_config>
+      <channel_config name="Dio64_Di_24">
+        <mapping>
+          <mappedTo type="trigger">external</mappedTo>
+          <states>All</states>
+          <units>N-A</units>
+          <calibration>
+            <gradient units="volts">N-A</gradient>
+            <offset units="volts">N-A</offset>
+          </calibration>
+          <safe_state units="volts">low</safe_state>
+        </mapping>
+        <channel_type>di</channel_type>
+        <digital_config>
+          <type>pulse</type>
+          <levels>
+            <high units="volts">5</high>
+            <low units="volts">0</low>
+          </levels>
+          <width units="us">1</width>
+          <delay units="us">0</delay>
+        </digital_config>
+      </channel_config>
+    </config>
+	</dio>
+</device_settings>

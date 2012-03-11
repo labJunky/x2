@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"  standalone='yes'?>
+<person>
+<first>larry</first>
+<last>fury</last>
+<child>
+<son>
+<one>Paul</one>
+<two>Peter</two>
+<nextSon>
+<one>Joe</one>
+<one>Eva</one>
+<two>James</two>
+</nextSon>
+</son>
+</child>
+<grandChild>
+<son>
+<one>me</one>
+<two>you</two>
+<nextSon>
+<one>Jack</one>
+<one>Sophie</one>
+<two>Alfred</two>
+</nextSon>
+</son>
+</grandChild>
+</person>

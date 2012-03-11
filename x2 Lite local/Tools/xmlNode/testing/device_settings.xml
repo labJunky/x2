@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"  standalone='yes'?>
+<device_settings>
+<file_name>DeviceSettings.xml</file_name>
+<experiment_name>BEC1</experiment_name>
+<device_list>
+<instrument type="analog">analog_output_name="Ao8"</instrument>
+<instrument type="analog">analog_output_name="Ao32"</instrument>
+<instrument type="digital">digital_output_name="DIO64"</instrument> 
+<instrument type="digital">digital_output_name="DAQ"</instrument>     
+</device_list>
+<analog_output name="Ao8">
+<capabilities>
+<channel_number type="analog">8</channel_number>
+</capabilities>
+</analog_output>
+<analog_output name="Ao32">
+<capabilities>
+<channel_number type="digital">4</channel_number>
+<channel_number type="analog">32</channel_number>
+</capabilities>
+</analog_output>
+<digital_output name="DIO64">
+<channel_number type="digital">4</channel_number>
+<channel_number type="analog">7</channel_number>
+<channels>
+<name>one</name>
+</channels>
+</digital_output>
+</device_settings>

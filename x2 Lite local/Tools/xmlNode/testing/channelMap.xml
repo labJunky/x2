@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"  standalone='yes'?>
+<channel_map>
+	<channel>
+		<channel_name>B0 [G]</channel_name>
+		<channel_address>Ao8:ch1</channel_address>
+		<pin_out>20</pin_out>
+	</channel>
+	<channel>
+		<channel_name>BMot [G]</channel_name>
+		<channel_address>Ao32:ch3</channel_address>
+		<pin_out>3</pin_out>
+	</channel>
+</channel_map>

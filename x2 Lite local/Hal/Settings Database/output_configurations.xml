@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"  standalone='yes'?>
+<configuration>
+  <output_configuration name="MOT">
+    <output_state>
+      <channel>Taper_Shutter</channel>
+      <state>closed</state>
+    </output_state>
+    <output_state>
+      <channel>Taper_Reflect_Shutter</channel>
+      <state>open</state>
+    </output_state>
+    <output_state>
+      <channel>repump_trigger</channel>
+      <state>open</state>
+    </output_state>
+    <output_state>
+      <channel>3DMOT_Coil_Trig</channel>
+      <state>open</state>
+    </output_state>
+    <output_state>
+      <channel>MOT_AOM_Amplitude</channel>
+      <state>on</state>
+    </output_state>
+    <output_state>
+      <channel>MOT_Detuning</channel>
+      <state>on</state>
+    </output_state>
+    <output_state>
+      <channel>3DMOT_Coils</channel>
+      <state>on</state>
+    </output_state>
+    <output_state>
+      <channel>Slave_Shutter</channel>
+      <state>open</state>
+    </output_state>
+    <output_state>
+      <channel>AOM2_ONOFF</channel>
+      <state>open</state>
+    </output_state>
+    </output_configuration>
+   </configuration>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"  standalone='yes'?>
+<dataPoint>
+  <info>
+    <info>MOT Loading, Absorption Imaging Script Example.</info>
+  </info>
+  <event_list>
+    <event time="0." channel_name="3DMOT_Coil_Trig">
+      <time>0.</time>
+      <time_difference>0.</time_difference>
+      <channel_name>3DMOT_Coil_Trig</channel_name>
+      <action>changeValue</action>
+      <newValue>open</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+      <comment>Load MOT</comment>
+    </event>
+    <event time="0." channel_name="3DMOT_Coils">
+      <time>0.</time>
+      <time_difference>0.</time_difference>
+      <channel_name>3DMOT_Coils</channel_name>
+      <action>changeValue</action>
+      <newValue>10</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+      <comment>Switch on MOT</comment>
+    </event>
+    <event time="0." channel_name="Taper_Shutter">
+      <time>0.</time>
+      <time_difference>0.</time_difference>
+      <channel_name>Taper_Shutter</channel_name>
+      <action>changeValue</action>
+      <newValue>open</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+      <comment>Switch on MOT light</comment>
+    </event>
+    <event time="10000000." channel_name="Taper_Shutter">
+      <time>10000000.</time>
+      <time_difference>10000000.</time_difference>
+      <channel_name>Taper_Shutter</channel_name>
+      <action>changeValue</action>
+      <newValue>closed</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+      <comment>Switch off MOT Light</comment>
+    </event>
+    <event time="10000000." channel_name="3DMOT_Coil_Trig">
+      <time>10000000.</time>
+      <time_difference>0.</time_difference>
+      <channel_name>3DMOT_Coil_Trig</channel_name>
+      <action>changeValue</action>
+      <newValue>closed</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+      <comment>Switch off Coils</comment>
+    </event>
+    <event time="10000500." channel_name="3DMOT_Coils">
+      <time>10000500.</time>
+      <time_difference>500.</time_difference>
+      <channel_name>3DMOT_Coils</channel_name>
+      <action>changeValue</action>
+      <newValue>off</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+      <comment>Switch off MOT Coils</comment>
+    </event>
+    <event time="10000500." channel_name="AndorIKon_Trig">
+      <time>10000500.</time>
+      <time_difference>0.</time_difference>
+      <channel_name>AndorIKon_Trig</channel_name>
+      <action>pulse</action>
+      <newValue>snap</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_Imaging</stage>
+      <comment>Take cloud image</comment>
+    </event>
+    <event time="10000500." channel_name="Repump_Shutter">
+      <time>10000500.</time>
+      <time_difference>0.</time_difference>
+      <channel_name>Repump_Shutter</channel_name>
+      <action>changeValue</action>
+      <newValue>open</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>MOT</stage>
+      <comment>Switch on imaging beam</comment>
+    </event>
+    <event time="10000600." channel_name="Repump_Shutter">
+      <time>10000600.</time>
+      <time_difference>100.</time_difference>
+      <channel_name>Repump_Shutter</channel_name>
+      <action>changeValue</action>
+      <newValue>closed</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_Imaging</stage>
+      <comment>Switch off imaging beam</comment>
+    </event>
+    <event time="11000100." channel_name="AndorIKon_Trig">
+      <time>11000100.</time>
+      <time_difference>999500.</time_difference>
+      <channel_name>AndorIKon_Trig</channel_name>
+      <action>pulse</action>
+      <newValue>snap</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_LaserOn</stage>
+      <comment>Take laser reference image</comment>
+    </event>
+    <event time="11000100." channel_name="Repump_Shutter">
+      <time>11000100.</time>
+      <time_difference>0.</time_difference>
+      <channel_name>Repump_Shutter</channel_name>
+      <action>changeValue</action>
+      <newValue>open</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_Imaging</stage>
+      <comment>Switch on absorption beam</comment>
+    </event>
+    <event time="11000200." channel_name="Repump_Shutter">
+      <time>11000200.</time>
+      <time_difference>100.</time_difference>
+      <channel_name>Repump_Shutter</channel_name>
+      <action>changeValue</action>
+      <newValue>closed</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_Imaging</stage>
+      <comment>Switch off absorption beam</comment>
+    </event>
+    <event time="11990000." channel_name="AndorIKon_Trig">
+      <time>11990000.</time>
+      <time_difference>989800.</time_difference>
+      <channel_name>AndorIKon_Trig</channel_name>
+      <action>pulse</action>
+      <newValue>snap</newValue>
+      <scan_parameter>false</scan_parameter>
+      <stage>Absorption_Imaging</stage>
+      <comment>Take background image</comment>
+    </event>
+  </event_list>
+</dataPoint>
