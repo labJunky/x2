@@ -24,4 +24,5 @@
 	<Item Name="DataPointScript.lvclass" Type="LVClass" URL="../Scripting/DataPointScript/DataPointScript.lvclass"/>
 	<Item Name="SingleToneArray.lvclass" Type="LVClass" URL="../Scripting/ScriptingEvent/ScriptEvents/SingleToneArray/SingleToneArray.lvclass"/>
 	<Item Name="rfArray.lvclass" Type="LVClass" URL="../Scripting/ScriptingEvent/ScriptEvents/RfArray/rfArray.lvclass"/>
+	<Item Name="Delay.lvclass" Type="LVClass" URL="../Scripting/ScriptingEvent/ScriptEvents/Delay/Delay.lvclass"/>
 </Library>

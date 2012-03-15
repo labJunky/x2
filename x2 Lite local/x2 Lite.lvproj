@@ -562,6 +562,8 @@
 			<Item Name="daqmx.rc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2009/resource/objmgr/daqmx.rc"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2009/resource/lvsound2.dll"/>
 			<Item Name="matscript.dll" Type="Document"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2009/resource/visarc"/>
+			<Item Name="DOMUserDefRef.rc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2009/resource/objmgr/DOMUserDefRef.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Dio64" Type=".NET Interop Assembly">
