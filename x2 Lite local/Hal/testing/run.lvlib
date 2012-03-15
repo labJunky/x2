@@ -21,6 +21,7 @@
 		<Item Name="cqtDDSdllOpen.vi" Type="VI" URL="../cqtDDSdllOpen.vi"/>
 		<Item Name="testCQTDDSlabview.vi" Type="VI" URL="../testCQTDDSlabview.vi"/>
 		<Item Name="testFringeViewer.vi" Type="VI" URL="../testFringeViewer.vi"/>
+		<Item Name="absorptionImagingOld.vi" Type="VI" URL="../../Channels/Camera/PixelFly/absorptionImagingOld.vi"/>
 	</Item>
 	<Item Name="Camera" Type="Folder">
 		<Item Name="Pixelfly" Type="Folder">
