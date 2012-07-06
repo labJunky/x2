@@ -12,12 +12,12 @@
 		<Property Name="mathScriptPath" Type="Str">C:\Documents and Settings\Admin\My Documents\LabVIEW Data</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.acl" Type="Str">0800000008000000</Property>
+		<Property Name="server.tcp.acl" Type="Str">290000000A000000010000001D00000003000000010000002A10000000030000000000010000000000</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
+		<Property Name="server.tcp.port" Type="Int">6343</Property>
 		<Property Name="server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
-		<Property Name="server.vi.access" Type="Str"></Property>
+		<Property Name="server.vi.access" Type="Str">+*</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
@@ -355,6 +355,26 @@
 				<Item Name="DAQmx Create Channel (AI-Force-IEPE Sensor).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Force-IEPE Sensor).vi"/>
 				<Item Name="DAQmx Create Channel (TEDS-AI-Bridge).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (TEDS-AI-Bridge).vi"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="subSigGeneratorBlock.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subSigGeneratorBlock.vi"/>
+				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
+				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
+				<Item Name="ex_GenAddAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/ex_GenAddAttribs.vi"/>
+				<Item Name="ex_WaveformAttribsPlus.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribsPlus.ctl"/>
+				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
+				<Item Name="ex_SetExpAttribsAndT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetExpAttribsAndT0.vi"/>
+				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
+				<Item Name="ex_SetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetAllExpressAttribs.vi"/>
+				<Item Name="Timestamp Add.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Add.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="subInternalTiming.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subInternalTiming.vi"/>
+				<Item Name="subShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subShouldUseDefSigName.vi"/>
+				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
+				<Item Name="subGetSignalName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subGetSignalName.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="DIO64 Open.vi" Type="VI" URL="/&lt;userlib&gt;/dio64_32.LLB/DIO64 Open.vi"/>
@@ -532,6 +552,15 @@
 				<Item Name="hmp4000_core_attribute_write_boolean.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/_utility/rsidr_core/hmp4000_core_attribute_write_boolean.vi"/>
 				<Item Name="hmp4000_core_attribute_write_none.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/_utility/rsidr_core/hmp4000_core_attribute_write_none.vi"/>
 				<Item Name="hmp4000_core_get_attribute_index.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/_utility/rsidr_core/hmp4000_core_get_attribute_index.vi"/>
+				<Item Name="hmp4000 Configure Arbitrary Generator Waveform Data.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/Configuration/Arbitrary Generator/hmp4000 Configure Arbitrary Generator Waveform Data.vi"/>
+				<Item Name="hmp4000 Configure Arbitrary Generator Data Transfer Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/Configuration/Arbitrary Generator/hmp4000 Configure Arbitrary Generator Data Transfer Channel.vi"/>
+				<Item Name="hmp4000 Configure Arbitrary Generator Start Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/Configuration/Arbitrary Generator/hmp4000 Configure Arbitrary Generator Start Channel.vi"/>
+				<Item Name="Keithley 3390 Arbitrary Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 3390/Examples/Keithley 3390 Arbitrary Waveform.vi"/>
+				<Item Name="Keithley 3390 Frequency Sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 3390/Examples/Keithley 3390 Frequency Sweep.vi"/>
+				<Item Name="Keithley 3390 Software Triggered Frequency Sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 3390/Examples/Keithley 3390 Software Triggered Frequency Sweep.vi"/>
+				<Item Name="Keithley 3390 Standard Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 3390/Examples/Keithley 3390 Standard Waveform.vi"/>
+				<Item Name="Keithley 3390 Modulation.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 3390/Examples/Keithley 3390 Modulation.vi"/>
+				<Item Name="Keithley 3390.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 3390/Keithley 3390.lvlib"/>
 			</Item>
 			<Item Name="dio64_32.dll" Type="Document" URL="dio64_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -558,7 +587,6 @@
 			<Item Name="WINX32 Get Data to Modify.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Get Data to Modify.vi"/>
 			<Item Name="WINX32 Get Data.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Get Data.vi"/>
 			<Item Name="WINX32 Delete.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Delete.vi"/>
-			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
 			<Item Name="daqmx.rc" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/objmgr/daqmx.rc"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvsound2.dll"/>
@@ -656,6 +684,44 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Hardware.lvlib/Channels.lvlib/Digital/DIO64Output.lvclass/Public Methods/started.vi</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">11</Property>
+			</Item>
+			<Item Name="My DLL" Type="DLL">
+				<Property Name="App_applicationGUID" Type="Str">{44CB4499-B108-4FDE-979F-EF59BDA58168}</Property>
+				<Property Name="App_applicationName" Type="Str">SharedLib.dll</Property>
+				<Property Name="App_companyName" Type="Str">CQT</Property>
+				<Property Name="App_fileDescription" Type="Str">My DLL</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{2039E702-D596-4EEB-971C-E6A64B0C4B42}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{065D7FD6-D113-4322-AAB2-FCB30BA76593}</Property>
+				<Property Name="App_internalName" Type="Str">My DLL</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2012 CQT</Property>
+				<Property Name="App_productName" Type="Str">My DLL</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.CQT.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My DLL</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">SharedLib.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My DLL/SharedLib.dll</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My DLL/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{D582953D-2E34-4E29-9877-0FED5FC2E94D}</Property>
+				<Property Name="Dll_libGUID" Type="Str">{A436CA33-3D0D-4970-8EF1-E806695876A1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{77AE482D-3251-4C44-A5DA-0CB332C27DDF}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/run.lvlib/Testing/runAScript.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Views.lvlib/ExperimentControl.lvlib/ExperimentControlEvents.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>

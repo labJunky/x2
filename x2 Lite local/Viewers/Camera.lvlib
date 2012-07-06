@@ -12,4 +12,7 @@
 	<Item Name="AnalysisResultsViewer.lvclass" Type="LVClass" URL="../AnalysisResultsViewer/AnalysisResultsViewer.lvclass"/>
 	<Item Name="snapperEventsFunctionalGlobal.vi" Type="VI" URL="../Snapper/SnapperEvents/snapperEventsFunctionalGlobal.vi"/>
 	<Item Name="FringeTestingViewer.lvclass" Type="LVClass" URL="../AnalysisResultsViewer/FringeTestingViewer/FringeTestingViewer.lvclass"/>
+	<Item Name="AnalysisFile.lvclass" Type="LVClass" URL="../AnalysisFile/AnalysisFile.lvclass"/>
+	<Item Name="ImagesToQueue.lvclass" Type="LVClass" URL="../ImagesToQueue/ImagesToQueue.lvclass"/>
+	<Item Name="CameraControlViewer.lvclass" Type="LVClass" URL="../CameraControlViewer/CameraControlViewer.lvclass"/>
 </Library>

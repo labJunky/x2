@@ -16,7 +16,7 @@
 		<Item Name="AnalogDevice.lvclass" Type="LVClass" URL="../DatabaseHelpers/Database Objects/device/AnalogDevice/AnalogDevice.lvclass"/>
 		<Item Name="DigitalDevice.lvclass" Type="LVClass" URL="../DatabaseHelpers/Database Objects/device/DigitalDevice/DigitalDevice.lvclass"/>
 		<Item Name="rfDevice.lvclass" Type="LVClass" URL="../DatabaseHelpers/Database Objects/device/rfDevice/rfDevice.lvclass"/>
-		<Item Name="EthernetSupply.lvclass" Type="LVClass" URL="../DatabaseHelpers/Database Objects/device/EthernetSupply/EthernetSupply.lvclass"/>
+		<Item Name="ethernetSupply.lvclass" Type="LVClass" URL="../DatabaseHelpers/Database Objects/device/EthernetSupply/ethernetSupply.lvclass"/>
 	</Item>
 	<Item Name="Channels" Type="Folder">
 		<Item Name="ChannelArray.lvclass" Type="LVClass" URL="../DatabaseHelpers/Database Objects/ChannelArray/ChannelArray.lvclass"/>

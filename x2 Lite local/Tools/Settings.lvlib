@@ -11,6 +11,7 @@
 		<Item Name="cSettingEventFunctionalGlobal.vi" Type="VI" URL="../../Hal/Channels/Camera/CameraSettingsEventsManager/cSettingEventFunctionalGlobal.vi"/>
 		<Item Name="CamaraSettings.lvclass" Type="LVClass" URL="../CameraSettings/CamaraSettings.lvclass"/>
 		<Item Name="PixelflySettings.lvclass" Type="LVClass" URL="../CameraSettings/PixelFlySettings/PixelflySettings.lvclass"/>
+		<Item Name="cameraSettingsGlobalF.vi" Type="VI" URL="../CameraSettings/cameraSettingsGlobalF.vi"/>
 	</Item>
 	<Item Name="functions" Type="Folder">
 		<Item Name="settingsEventsFunctionalGlobal.vi" Type="VI" URL="../SettingsEventManager/settingsEventsFunctionalGlobal.vi">

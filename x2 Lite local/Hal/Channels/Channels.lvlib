@@ -24,6 +24,7 @@
 		<Item Name="Pixelfly.lvclass" Type="LVClass" URL="../Camera/Camera/Pixelfly/Pixelfly.lvclass"/>
 		<Item Name="ProEM_WinX32.lvclass" Type="LVClass" URL="../Camera/ProEM_WinX32/ProEM_WinX32.lvclass"/>
 		<Item Name="PixelFly_Status_FG.vi" Type="VI" URL="../Camera/Camera/Pixelfly/PixelFly_Status_FG.vi"/>
+		<Item Name="pixelFly_stopped.vi" Type="VI" URL="../Camera/Camera/Pixelfly/pixelFly_stopped.vi"/>
 		<Item Name="PixelFly_Control_FG.vi" Type="VI" URL="../Camera/Camera/Pixelfly/PixelFly_Control_FG.vi"/>
 	</Item>
 	<Item Name="Digital" Type="Folder">
@@ -56,6 +57,7 @@
 		<Item Name="DDSOutput.lvclass" Type="LVClass" URL="../DDSOutput/Generic/DDSOutput.lvclass"/>
 		<Item Name="SpinCore.lvclass" Type="LVClass" URL="../DDSOutput/SpinCore/SpinCore.lvclass"/>
 		<Item Name="CQT_DDS.lvclass" Type="LVClass" URL="../DDSOutput/CQT_DDS/CQT_DDS.lvclass"/>
+		<Item Name="k3390_AWG.lvclass" Type="LVClass" URL="../DDSOutput/k3390_AWG/k3390_AWG.lvclass"/>
 	</Item>
 	<Item Name="HWChannel.lvclass" Type="LVClass" URL="../HWChannel.lvclass"/>
 </Library>

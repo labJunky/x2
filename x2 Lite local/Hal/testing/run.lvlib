@@ -22,6 +22,12 @@
 		<Item Name="testCQTDDSlabview.vi" Type="VI" URL="../testCQTDDSlabview.vi"/>
 		<Item Name="testFringeViewer.vi" Type="VI" URL="../testFringeViewer.vi"/>
 		<Item Name="absorptionImagingOld.vi" Type="VI" URL="../../Channels/Camera/PixelFly/absorptionImagingOld.vi"/>
+		<Item Name="parameterXML.vi" Type="VI" URL="../parameterXML.vi"/>
+		<Item Name="trees.vi" Type="VI" URL="../trees.vi"/>
+		<Item Name="HAMEG_HMP2020.vi" Type="VI" URL="../HAMEG_HMP2020.vi"/>
+		<Item Name="runAScript.vi" Type="VI" URL="../runAScript.vi"/>
+		<Item Name="analyseTemperature.vi" Type="VI" URL="../analyseTemperature.vi"/>
+		<Item Name="testK3390.vi" Type="VI" URL="../testK3390.vi"/>
 	</Item>
 	<Item Name="Camera" Type="Folder">
 		<Item Name="Pixelfly" Type="Folder">
@@ -42,5 +48,7 @@
 		<Item Name="testCamera.vi" Type="VI" URL="../testCamera.vi"/>
 		<Item Name="testingCameraSettings.vi" Type="VI" URL="../../../Tools/CameraSettings/testingCameraSettings.vi"/>
 		<Item Name="imageObjectFind.vi" Type="VI" URL="../imageObjectFind.vi"/>
+		<Item Name="blueScreenTestPixelfly.vi" Type="VI" URL="../blueScreenTestPixelfly.vi"/>
+		<Item Name="blueScreenTest.vi" Type="VI" URL="../blueScreenTest.vi"/>
 	</Item>
 </Library>

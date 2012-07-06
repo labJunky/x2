@@ -7,4 +7,6 @@
 	<Item Name="ExperimentRunner.lvclass" Type="LVClass" URL="../Editors/ExperimentRunner/ExperimentRunner.lvclass"/>
 	<Item Name="ExperimentControlEvents.lvclass" Type="LVClass" URL="../Editors/ExperimentRunner/Events/ExperimentControlEvents.lvclass"/>
 	<Item Name="ExperimentControl.lvclass" Type="LVClass" URL="../Editors/ExperimentRunner/RunExperiment/ExperimentControl.lvclass"/>
+	<Item Name="expControlEventsGF.vi" Type="VI" URL="../Editors/ExperimentRunner/RunExperiment/expControlEventsGF.vi"/>
+	<Item Name="MatlabScripts.lvclass" Type="LVClass" URL="../Editors/ExperimentRunner/MatlabScripts/MatlabScripts.lvclass"/>
 </Library>
