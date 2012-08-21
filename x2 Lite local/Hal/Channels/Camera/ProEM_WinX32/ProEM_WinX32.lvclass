@@ -75,7 +75,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074274832</Property>
 		</Item>
 		<Item Name="close.vi" Type="VI" URL="../close.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$T!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!4E"Q!"Y!!$1/3'&amp;S:(&gt;B=G5O&lt;(:M;7)/1WBB&lt;GZF&lt;(-O&lt;(:M;7)55(*P25V@6WFO7$-S,GRW9WRB=X-!!!^1=G^&amp;46^8;7Z9-T)A;7Y!0!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"!!%!!9$!!"Y$1A!!!!!!!!!!!!!!!!!!!I!!!!!!*!!!!!!!1!(!!!!!!</Property>
@@ -119,13 +119,13 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="saveImages.vi" Type="VI" URL="../saveImages.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'=!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!U$EBB=G2X98*F,GRW&lt;'FC$E.I97ZO:7RT,GRW&lt;'FC&amp;&amp;"S&lt;U6.8V&gt;J&lt;FAT-CZM&gt;G.M98.T!!!15(*P25V@6WFO7$-S)'^V&gt;!!!&amp;U!$!""U&lt;X2B&lt;%FN97&gt;F4H6N9G6S!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!5!!A!!)E"!!!,``````````Q!)%5ER.G*J&gt;#"J&lt;7&amp;H:3"E982B!!Z!-P````]%5'&amp;U;!!!4E"Q!"Y!!$1/3'&amp;S:(&gt;B=G5O&lt;(:M;7)/1WBB&lt;GZF&lt;(-O&lt;(:M;7)55(*P25V@6WFO7$-S,GRW9WRB=X-!!!^1=G^&amp;46^8;7Z9-T)A;7Y!31$Q!!Q!!Q!%!!1!"1!%!!1!"!!'!!=!#1!+!!M$!!"Y$1A!!!!!$1M!!!!!!!!)!!I!#!!)!"!!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'=!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!U$EBB=G2X98*F,GRW&lt;'FC$E.I97ZO:7RT,GRW&lt;'FC&amp;&amp;"S&lt;U6.8V&gt;J&lt;FAT-CZM&gt;G.M98.T!!!15(*P25V@6WFO7$-S)'^V&gt;!!!&amp;U!$!""U&lt;X2B&lt;%FN97&gt;F4H6N9G6S!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!5!"A!!)E"!!!,``````````Q!)%65R.G*J&gt;#"J&lt;7&amp;H:3"E982B!!Z!-P````]%5'&amp;U;!!!4E"Q!"Y!!$1/3'&amp;S:(&gt;B=G5O&lt;(:M;7)/1WBB&lt;GZF&lt;(-O&lt;(:M;7)55(*P25V@6WFO7$-S,GRW9WRB=X-!!!^1=G^&amp;46^8;7Z9-T)A;7Y!31$Q!!Q!!Q!%!!1!"1!%!!1!"!!'!!=!#1!+!!M$!!"Y$1A!!!!!$1M!!!!!!!!)!!I!#!!)!"!!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="WINX32 Init image pointers.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Init image pointers.vi">

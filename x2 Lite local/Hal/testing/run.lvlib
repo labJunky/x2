@@ -28,6 +28,7 @@
 		<Item Name="runAScript.vi" Type="VI" URL="../runAScript.vi"/>
 		<Item Name="analyseTemperature.vi" Type="VI" URL="../analyseTemperature.vi"/>
 		<Item Name="testK3390.vi" Type="VI" URL="../testK3390.vi"/>
+		<Item Name="testPM100.vi" Type="VI" URL="../testPM100.vi"/>
 	</Item>
 	<Item Name="Camera" Type="Folder">
 		<Item Name="Pixelfly" Type="Folder">
@@ -44,6 +45,7 @@
 		<Item Name="ProEM_WinX32" Type="Folder">
 			<Item Name="openNewDocFile.vi" Type="VI" URL="../../Channels/Camera/ProEM/openNewDocFile.vi"/>
 			<Item Name="testing_ProEM.vi" Type="VI" URL="../../Channels/Camera/ProEM/testing_ProEM.vi"/>
+			<Item Name="testVideo.vi" Type="VI" URL="../testVideo.vi"/>
 		</Item>
 		<Item Name="testCamera.vi" Type="VI" URL="../testCamera.vi"/>
 		<Item Name="testingCameraSettings.vi" Type="VI" URL="../../../Tools/CameraSettings/testingCameraSettings.vi"/>

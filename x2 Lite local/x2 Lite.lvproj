@@ -47,6 +47,21 @@
 		<Item Name="Pixelfly" Type="Folder">
 			<Item Name="PixelflySA.lvclass" Type="LVClass" URL="../Hal/Channels/Camera/PixelflySA/PixelflySA.lvclass"/>
 		</Item>
+		<Item Name="Camera DLL" Type="Folder">
+			<Item Name="initWin32.vi" Type="VI" URL="../../Princeton Camera/actX/initWin32.vi"/>
+			<Item Name="startWin32.vi" Type="VI" URL="../../Princeton Camera/actX/startWin32.vi"/>
+			<Item Name="init2Win32.vi" Type="VI" URL="../../Princeton Camera/actX/init2Win32.vi"/>
+			<Item Name="start2Win32.vi" Type="VI" URL="../../Princeton Camera/actX/start2Win32.vi"/>
+			<Item Name="testWinActX.vi" Type="VI" URL="../../Princeton Camera/actX/testWinActX.vi"/>
+		</Item>
+		<Item Name="To DLL" Type="Folder">
+			<Item Name="CameraDLL" Type="Folder">
+				<Item Name="createCamera.vi" Type="VI" URL="../toDLL/CameraDLL/createCamera.vi"/>
+			</Item>
+			<Item Name="objToPointer.vi" Type="VI" URL="../toDLL/objToPointer.vi"/>
+			<Item Name="pointerToObj.vi" Type="VI" URL="../toDLL/pointerToObj.vi"/>
+			<Item Name="testTranformation.vi" Type="VI" URL="../toDLL/testTranformation.vi"/>
+		</Item>
 		<Item Name="iManagement.lvlib" Type="Library" URL="../IntegrationManagement/iManagement.lvlib"/>
 		<Item Name="Hardware.lvlib" Type="Library" URL="../Hal/Hardware.lvlib"/>
 		<Item Name="Tools.lvlib" Type="Library" URL="../Tools/Tools.lvlib"/>
@@ -255,7 +270,6 @@
 				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
-				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
@@ -301,19 +315,9 @@
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
-				<Item Name="Overlay Results (Blob).vi" Type="VI" URL="/&lt;vilib&gt;/vision/Blob.llb/Overlay Results (Blob).vi"/>
-				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
-				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
-				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
-				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
-				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
-				<Item Name="IMAQ Particle Filter 2" Type="VI" URL="/&lt;vilib&gt;/vision/Compatibility.llb/IMAQ Particle Filter 2"/>
-				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
 				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
-				<Item Name="IMAQ Convert Rectangle to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Rectangle to ROI"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
-				<Item Name="IMAQ Coordinate System" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Coordinate System"/>
 				<Item Name="IMAQ Count Objects 2" Type="VI" URL="/&lt;vilib&gt;/vision/Blob.llb/IMAQ Count Objects 2"/>
 				<Item Name="DAQmx Create Channel (AI-Position-EddyCurrentProxProbe).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Position-EddyCurrentProxProbe).vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
@@ -327,7 +331,6 @@
 				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="DAQmx Connect Terminals.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/routing.llb/DAQmx Connect Terminals.vi"/>
 				<Item Name="DAQmx Disconnect Terminals.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/routing.llb/DAQmx Disconnect Terminals.vi"/>
@@ -375,6 +378,12 @@
 				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
 				<Item Name="subGetSignalName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subGetSignalName.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="IMAQ Subtract" Type="VI" URL="/&lt;vilib&gt;/vision/Operator.llb/IMAQ Subtract"/>
+				<Item Name="IMAQ Multiply" Type="VI" URL="/&lt;vilib&gt;/vision/Operator.llb/IMAQ Multiply"/>
+				<Item Name="IMAQ Cast Image" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Cast Image"/>
+				<Item Name="IMAQ Absolute Difference" Type="VI" URL="/&lt;vilib&gt;/vision/Operator.llb/IMAQ Absolute Difference"/>
+				<Item Name="IMAQ LineProfile" Type="VI" URL="/&lt;vilib&gt;/vision/Analysis.llb/IMAQ LineProfile"/>
+				<Item Name="IMAQ Rotate" Type="VI" URL="/&lt;vilib&gt;/vision/Image Manipulation.llb/IMAQ Rotate"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="DIO64 Open.vi" Type="VI" URL="/&lt;userlib&gt;/dio64_32.LLB/DIO64 Open.vi"/>
@@ -506,7 +515,6 @@
 				<Item Name="WINX32 Image.ctl" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Image.ctl"/>
 				<Item Name="Analyse - Camera.ctl" Type="VI" URL="/&lt;instrlib&gt;/WinX32/Analyse.llb/Analyse - Camera.ctl"/>
 				<Item Name="WINX32 Start.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Start.vi"/>
-				<Item Name="WINX32 Princeton Get.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Princeton Get.vi"/>
 				<Item Name="hmp4000 Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/hmp4000 Initialize.vi"/>
 				<Item Name="hmp4000 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/hmp4000 Close.vi"/>
 				<Item Name="hmp4000 Configure Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/hmp4000/Configuration/hmp4000 Configure Channel.vi"/>
@@ -561,6 +569,7 @@
 				<Item Name="Keithley 3390 Standard Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 3390/Examples/Keithley 3390 Standard Waveform.vi"/>
 				<Item Name="Keithley 3390 Modulation.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 3390/Examples/Keithley 3390 Modulation.vi"/>
 				<Item Name="Keithley 3390.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 3390/Keithley 3390.lvlib"/>
+				<Item Name="WINX32 Princeton Get.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Princeton Get.vi"/>
 			</Item>
 			<Item Name="dio64_32.dll" Type="Document" URL="dio64_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -587,9 +596,10 @@
 			<Item Name="WINX32 Get Data to Modify.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Get Data to Modify.vi"/>
 			<Item Name="WINX32 Get Data.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Get Data.vi"/>
 			<Item Name="WINX32 Delete.vi" Type="VI" URL="/&lt;instrlib&gt;/WinX32/WINX32.llb/WINX32 Delete.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
-			<Item Name="daqmx.rc" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/objmgr/daqmx.rc"/>
-			<Item Name="lvsound2.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvsound2.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
+			<Item Name="daqmx.rc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2009/resource/objmgr/daqmx.rc"/>
+			<Item Name="lvsound2.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2009/resource/lvsound2.dll"/>
+			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Dio64" Type=".NET Interop Assembly">
@@ -620,7 +630,7 @@
 				<Property Name="DotNETAssembly_signAssembly" Type="Bool">false</Property>
 				<Property Name="DotNETAssembly_StrongNameKeyFileItemID" Type="Ref"></Property>
 				<Property Name="DotNETAssembly_StrongNameKeyGUID" Type="Str">{084B751B-DEC8-47C4-BD23-86B23AF7152F}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{30C66423-5956-4E26-9D8A-E8AA94500B67}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C5D5C4A-911F-4C22-9FB3-41FBDE607423}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Hardware.lvlib/Channels.lvlib/Digital/DIO64Output.lvclass/Public Methods/start.vi</Property>
@@ -722,6 +732,118 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="proEmWin32" Type="DLL">
+				<Property Name="App_applicationGUID" Type="Str">{D5B8DF96-B2ED-44B2-8400-F5CB11D8C9A3}</Property>
+				<Property Name="App_applicationName" Type="Str">proEmWin32.dll</Property>
+				<Property Name="App_companyName" Type="Str">CQT</Property>
+				<Property Name="App_fileDescription" Type="Str">proEmWin32</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7145BFA3-DF06-48E3-968C-F59047D17C28}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{DE8515B9-87A6-4A1B-A46A-5B9CC08A7C1F}</Property>
+				<Property Name="App_internalName" Type="Str">proEmWin32</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2012 CQT</Property>
+				<Property Name="App_productName" Type="Str">proEmWin32</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">proEmWin32</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">proEmWin32.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/proEmWin32/proEmWin32.dll</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/proEmWin32/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{D2621243-1006-4CDB-8DB9-2076CF85A98C}</Property>
+				<Property Name="Dll_libGUID" Type="Str">{05EF7CB2-A1FC-4770-94C6-480E6AC6DE4C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{28858B21-573A-4C04-A9BC-5619FB0228C7}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Camera DLL/initWin32.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Camera DLL/startWin32.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Camera DLL/init2Win32.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">ExportedVI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Camera DLL/start2Win32.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">ExportedVI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+			</Item>
+			<Item Name="cameraDLL" Type=".NET Interop Assembly">
+				<Property Name="App_applicationGUID" Type="Str">{BC5690EE-28ED-4B29-9EAB-09B4A3864BB1}</Property>
+				<Property Name="App_applicationName" Type="Str">camera.dll</Property>
+				<Property Name="App_companyName" Type="Str">CQT</Property>
+				<Property Name="App_fileDescription" Type="Str">cameraDLL</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{AB81F65D-4C92-4DDB-883C-50D457B0CD82}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8B7D75FF-C0DE-424F-AAF8-3ED60DF016A0}</Property>
+				<Property Name="App_internalName" Type="Str">cameraDLL</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2012 CQT</Property>
+				<Property Name="App_productName" Type="Str">cameraDLL</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">cameraDLL</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">camera.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cameraDLL/camera.dll</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/cameraDLL/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="DotNETAssembly_ClassName" Type="Str">LabVIEWExports</Property>
+				<Property Name="DotNETAssembly_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="DotNETAssembly_Namespace" Type="Str">Camera</Property>
+				<Property Name="DotNETAssembly_signAssembly" Type="Bool">false</Property>
+				<Property Name="DotNETAssembly_StrongNameKeyFileItemID" Type="Ref"></Property>
+				<Property Name="DotNETAssembly_StrongNameKeyGUID" Type="Str">{65EE8277-8494-43B6-8444-ACCE59C14AB4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C5D5C4A-911F-4C22-9FB3-41FBDE607423}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[0]VIProtoConNum" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[0]VIProtoDataType" Type="Str">String</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[0]VIProtoIutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[0]VIProtoName" Type="Str">returnvalue</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[1]VIProtoConNum" Type="Int">10</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[1]VIProtoDataType" Type="Str">String</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[1]VIProtoIutputIdx" Type="Int">10</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[1]VIProtoName" Type="Str">Camera</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[2]VIProtoConNum" Type="Int">8</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[2]VIProtoDataType" Type="Str">Cluster</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[2]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[2]VIProtoIutputIdx" Type="Int">8</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[2]VIProtoName" Type="Str">errorin</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[3]VIProtoConNum" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[3]VIProtoDataType" Type="Str">String</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[3]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[3]VIProtoIutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[3]VIProtoName" Type="Str">cameraObj</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[4]MethodName" Type="Str">createCamera</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[4]VIName" Type="Str">createCamera.vi</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[4]VIProtoConNum" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[4]VIProtoDataType" Type="Str">Cluster</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[4]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[4]VIProtoIutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[4]VIProtoName" Type="Str">errorout</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedAssemblyVI.VIProtoInfoVIProtoItemCount" Type="Int">5</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/To DLL/CameraDLL/createCamera.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">ExportedAssemblyVI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
