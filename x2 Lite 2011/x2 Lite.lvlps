@@ -1,0 +1,51 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "72,4,747,381"
+
+[AB_Cache_{C5A24541-5E16-4298-A75A-FDDA2F858939}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "dd8a23d5bf38aa81e9e52eb43d310cea"
+Cache_MyCompChksum[String] = "067b1fb9c2c8aa0aed12eeca459d5089"
+Cache_GenFile_Count[Integer] = 4
+Cache_GenFile[0][Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/"
+Cache_GenFile[0][Path] Line0002 = "x2 Lite/ImageStreamViewer/ImageStreamViewer."
+Cache_GenFile[0][Path] Line0003 = "exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/"
+Cache_GenFile[1][Path] Line0002 = "x2 Lite/ImageStreamViewer/ImageStreamViewer."
+Cache_GenFile[1][Path] Line0003 = "aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/"
+Cache_GenFile[2][Path] Line0002 = "x2 Lite/ImageStreamViewer/ImageStreamViewer."
+Cache_GenFile[2][Path] Line0003 = "ini"
+Cache_GenFile[3][Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/"
+Cache_GenFile[3][Path] Line0002 = "x2 Lite/ImageStreamViewer/data/lvanlys.dll"
+Cache_GenGUID_Count[Integer] = 4
+Cache_GenGUID[0][String] = "{5FDA1C12-18DC-41A1-AFC8-32944C72040A}"
+Cache_GenGUID[1][String] = "{2D958E89-D81A-47A3-9908-C77BBE0357E2}"
+Cache_GenGUID[2][String] = "{73A64F86-58A9-4F01-9C3D-AAB216AE1E91}"
+Cache_GenGUID[3][String] = ""
+Cache_OutputDir[Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/x"
+Cache_OutputDir[Path] Line0002 = "2 Lite/ImageStreamViewer"
+
+[AB_Cache_{EB5398B0-98D8-413A-9480-24F15A78A155}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "dd8a23d5bf38aa81e9e52eb43d310cea"
+Cache_MyCompChksum[String] = "067b1fb9c2c8aa0aed12eeca459d5089"
+Cache_GenFile_Count[Integer] = 4
+Cache_GenFile[0][Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/"
+Cache_GenFile[0][Path] Line0002 = "x2 Lite/ImageStreamViewer/ImageStreamViewer."
+Cache_GenFile[0][Path] Line0003 = "exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/"
+Cache_GenFile[1][Path] Line0002 = "x2 Lite/ImageStreamViewer/ImageStreamViewer."
+Cache_GenFile[1][Path] Line0003 = "aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/"
+Cache_GenFile[2][Path] Line0002 = "x2 Lite/ImageStreamViewer/ImageStreamViewer."
+Cache_GenFile[2][Path] Line0003 = "ini"
+Cache_GenFile[3][Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/"
+Cache_GenFile[3][Path] Line0002 = "x2 Lite/ImageStreamViewer/data/lvanlys.dll"
+Cache_GenGUID_Count[Integer] = 4
+Cache_GenGUID[0][String] = "{5FDA1C12-18DC-41A1-AFC8-32944C72040A}"
+Cache_GenGUID[1][String] = "{2D958E89-D81A-47A3-9908-C77BBE0357E2}"
+Cache_GenGUID[2][String] = "{73A64F86-58A9-4F01-9C3D-AAB216AE1E91}"
+Cache_GenGUID[3][String] = ""
+Cache_OutputDir[Path] Line0001 = "/C/Users/Administrator/Desktop/Crete/builds/x"
+Cache_OutputDir[Path] Line0002 = "2 Lite/ImageStreamViewer"
+
